@@ -1,8 +1,9 @@
 import * as React from "react";
 import { MDXProvider } from "@mdx-js/react";
 import { GatsbyImage, StaticImage } from "gatsby-plugin-image";
+import YoutubeEmbed from "../../../gatsby-starter-dfrnt-graphql/src/components/YoutubeEmbed";
 
-const shortcodes = { StaticImage: StaticImage, GatsbyImage };
+const shortcodes = { StaticImage, GatsbyImage, YoutubeEmbed };
 
 const PageLayout = (props) => {
   return (

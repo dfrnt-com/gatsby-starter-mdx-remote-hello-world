@@ -14,7 +14,7 @@ exports.sourceNodes = ({ actions, createNodeId, createContentDigest }) => {
   }
 
   const content = {
-    mdx: `# Hello world\n\nHello world text\n\n<GatsbyImage alt="test 0" image={getImage(props.pageContext.imageList[0]?.childImageSharp?.gatsbyImageData)}/>\n\n![Sign you've been looking for](https://images.unsplash.com/photo-1496449903678-68ddcb189a24?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1920&q=80)`,
+    mdx: `import YoutubeEmbed from \"../../../../src/components/YoutubeEmbed.jsx\"\n\n# Hello world\n\nHello world text\n\n<GatsbyImage alt="test 0" image={getImage(props.pageContext.imageList[0]?.childImageSharp?.gatsbyImageData)}/>\n\n![Sign you've been looking for](https://images.unsplash.com/photo-1496449903678-68ddcb189a24?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1920&q=80)\n\n<YoutubeEmbed id=\"GuvAMcsoreI\"/>\n`,
     id: `my-data-${12345}`,
   }
 
