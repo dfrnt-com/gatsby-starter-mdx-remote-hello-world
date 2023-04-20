@@ -28,9 +28,9 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/gatsbyjs/gatsby-starter-mdx-remote-hello-world"
+    "url": "https://github.com/dfrnt-com/gatsby-starter-mdx-remote-hello-world"
   },
   "bugs": {
-    "url": "https://github.com/gatsbyjs/gatsby-starter-mdx-remote-hello-world/issues"
+    "url": "https://github.com/dfrnt-com/gatsby-starter-mdx-remote-hello-world/issues"
   }
 }
